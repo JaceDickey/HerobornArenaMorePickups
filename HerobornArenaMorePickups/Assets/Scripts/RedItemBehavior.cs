@@ -20,8 +20,8 @@ public class RedItemBehavior : MonoBehaviour
             Destroy(this.transform.parent.gameObject);
 
             // 4
-            Debug.Log("Running speed doubled!");
-            gameManager.Items += 1;
+            Debug.Log("Stamina doubled!");
         }
+        PlayerBehavior.redStaminaPickedUp();
     }
 }

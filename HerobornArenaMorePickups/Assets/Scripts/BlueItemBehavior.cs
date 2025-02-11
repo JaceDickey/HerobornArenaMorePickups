@@ -21,7 +21,7 @@ public class BlueItemBehavior : MonoBehaviour
 
             // 4
             Debug.Log("Enemy detection radius halved!");
-            gameManager.Items += 1;
         }
+        EnemyBehavior.ShrinkCollider();
     }
 }

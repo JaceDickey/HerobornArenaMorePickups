@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: 4b707acfe191ee048aa2f221711bf038
+  productGUID: c1c1e2e44a83d254bba0ede134eb5aba
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -637,7 +637,7 @@ PlayerSettings:
   webGLTemplate: APPLICATION:Default
   webGLAnalyzeBuildSize: 0
   webGLUseEmbeddedResources: 0
-  webGLCompressionFormat: 1
+  webGLCompressionFormat: 2
   webGLWasmArithmeticExceptions: 0
   webGLLinkerTarget: 1
   webGLThreadsSupport: 0
@@ -758,10 +758,10 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: d36da82a-20a9-41db-824b-17895065fb20
+  cloudProjectId: 68ba8b91-e66c-4687-b025-c81f25055afd
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: HerobornArenaMorePickups
+  projectName: HerobornArenaMorePickups 2025-02-11_01-26-22
   organizationId: jacedickeyerau
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0

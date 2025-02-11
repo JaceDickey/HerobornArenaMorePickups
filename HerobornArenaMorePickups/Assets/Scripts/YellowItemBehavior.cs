@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -5,6 +6,7 @@ using UnityEngine;
 public class YellowItemBehavior : MonoBehaviour
 {
     public GameBehavior gameManager;
+    public static bool pickedUp;
     void Start()
     {
         // 2                 
@@ -21,7 +23,7 @@ public class YellowItemBehavior : MonoBehaviour
 
             // 4
             Debug.Log("Exit elevator unlocked!");
-            gameManager.Items += 1;
+            pickedUp = true;
         }
     }
 }

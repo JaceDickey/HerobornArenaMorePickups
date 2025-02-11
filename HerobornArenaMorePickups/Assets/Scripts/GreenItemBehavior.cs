@@ -18,10 +18,7 @@ public class GreenItemBehavior : MonoBehaviour
         {
             // 3
             Destroy(this.transform.parent.gameObject);
-
-            // 4
-            Debug.Log("Jump height doubled!");
-            gameManager.Items += 1;
         }
+        PlayerBehavior.greenJumpPickedUp();
     }
 }
